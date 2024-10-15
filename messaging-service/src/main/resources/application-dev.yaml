@@ -1,0 +1,45 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: message-service
+
+
+  #----------Database Configuration -------#
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/invopay
+    username: root
+    password: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    username: admin
+    password: admin
+    packages:
+      trust-all: true
+
+address: support@invopay.com.au
+usern: invopay
+smtphost: email-smtp.ap-southeast-2.amazonaws.com
+user: AKIAYUOSYU53LFWJXZ2Y
+emailpassword: BMH8JRWHLirE8rB2CLcZcWHMmj86UPQssZ0MsYsE8wKy
+
+smsBaseUrl: https://rest.clicksend.com/v3
+url: /sms/send
+username: pete.koner@pksholdings.com
+password: 6CFADFE7-1636-34A4-76CF-930156E1D251
+method: http
+senderId: invopay
+encodecredentials: cGV0ZS5rb29uZXJAcHNraG9sZGluZ3MuY29tOjZDRkFERkU3LTE2MzYtMzRBNC03NkNGLTkzMDE1NkUxRDI1MQ==
+borker_url: tcp://PC:61616
