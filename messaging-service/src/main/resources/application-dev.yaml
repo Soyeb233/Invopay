@@ -29,7 +29,7 @@ spring:
     packages:
       trust-all: true
 
-address: support@invopay.com.au
+address: 
 usern: invopay
 smtphost: email-smtp.ap-southeast-2.amazonaws.com
 user: AKIAYUOSYU53LFWJXZ2Y
@@ -37,7 +37,7 @@ emailpassword: BMH8JRWHLirE8rB2CLcZcWHMmj86UPQssZ0MsYsE8wKy
 
 smsBaseUrl: https://rest.clicksend.com/v3
 url: /sms/send
-username: pete.koner@pksholdings.com
+username: test@holdings.com
 password: 6CFADFE7-1636-34A4-76CF-930156E1D251
 method: http
 senderId: invopay
